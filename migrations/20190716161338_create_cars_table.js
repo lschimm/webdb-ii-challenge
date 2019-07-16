@@ -14,4 +14,5 @@ exports.up = function(knex) {
 
 exports.down = function(knex) {
   // undo changes to the db schema
+  return knex.schema.dropTableExists("cars");
 };
