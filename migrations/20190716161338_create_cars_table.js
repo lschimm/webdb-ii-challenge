@@ -5,7 +5,7 @@ exports.up = function(knex) {
     tbl.increments();
 
     // other columns
-    tbl.number("vin").notNullable();
+    tbl.decimal("vin").notNullable();
     tbl.string("make", 128).notNullable();
     tbl.string("model", 128).notNullable();
     tbl.decimal("mileage").notNullable();
