@@ -8,13 +8,9 @@ const server = express();
 
 const carRouter = require("../cars/car-router.js");
 
-server.get("/api", (req, res) => {
-  res.send(`<h2>oh, what up</h2>`);
-});
-
 server.use(helmet());
 server.use(express.json());
 
-server.use("/cars", carRouter);
+server.use("/api/cars", carRouter);
 
 module.exports = server;
