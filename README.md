@@ -8,15 +8,15 @@ Follow these steps for starting your project.
 
 - [x] Fork this repository and **clone your fork**.
 - [~] Add your project manager as collaborator on your fork.
-- [~] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [~] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [~] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repository). **Please don't merge your own pull request**
+- [~] Add your project manager as a reviewer on the pull-request
+- [~] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
 
